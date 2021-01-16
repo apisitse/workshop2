@@ -9,7 +9,7 @@ print(me[0])
 print(me[9:13])
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ไม่มี space
-print (me.strip())
+print (me.replace(" ", ""))
 
 #จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ให้เป็นตัวพิมใหญ่ทั้งหมด
 print (me.upper())
@@ -22,5 +22,5 @@ print (me.replace("e", "z"))
 
 #จงเติมคำในช่องว่าเพื่อแสดงชื่อ
 myname = "aof"
-txt = "{myname}is the best programmer"
+txt = "{} is the best programmer"
 print(txt.format(myname))
